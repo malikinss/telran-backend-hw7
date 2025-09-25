@@ -7,10 +7,12 @@
 		"moduleResolution": "Node",
 		"strict": true,
 		"esModuleInterop": true,
+		"moduleDetection": "force",
 		"forceConsistentCasingInFileNames": true,
 		"skipLibCheck": true,
 		"outDir": "./dist",
 		"rootDir": "./src",
+		"allowSyntheticDefaultImports": true,
 		"allowImportingTsExtensions": true,
 		"noEmit": true
 	},
